@@ -12,5 +12,5 @@ on:
 jobs:
   build-and-test:
     if: github.event_name == 'workflow_dispatch' || contains(github.event.comment.body, '/run tests') || github.event_name == 'pull_request'
-    uses: IgorTodorovskiIBM/meta/.github/workflows/build_and_test.yml@main
+    uses: IgorTodorovskiIBM/meta/.github/workflows/build_and_test.yml@test_meta_github_action
     secrets: inherit
