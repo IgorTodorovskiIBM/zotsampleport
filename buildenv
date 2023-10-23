@@ -11,6 +11,7 @@ if [ -z "${ZOPEN_BUILD_LINE}" ]; then
   export ZOPEN_BUILD_LINE="STABLE"
 fi
 
+asdf
 #
 # Given the ZOPEN_BUILD_LINE, 'zopen build' will then need to know what the 
 # underlying build line to use - either ZOPEN_STABLE... or ZOPEN_DEV...
